@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header div {
+  display: flex;
+  align-items: center;
+  filter: opacity(0.8);
+}
+
+header div span {
+  padding-left: 1rem;
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: gray;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+}
+
+li {
+  padding: 1rem 1rem;
+}
+
+.active {
+  color: blue;
+  border-bottom: 2px solid blue;
+}
+
+main {
+  width: 65%;
+  margin: auto;
+  padding: 2rem 0;
+}
+
+main p {
+  padding: 1.8rem 0;
+}
